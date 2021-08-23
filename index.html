@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>JDM_Project_v1.0</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="Assets/logov3.2.png" width="150px" height="auto"></a>
+        <ul>
+            <li><a href="#" class="active">Productos</a></li>
+            <li><a href="page2_temp.html">Home</a></li>
+            <li><a href="#">Redes</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <img src="Assets/SkylineBack.png" id="skylineBack">
+        <img src="Assets/SkylineMid.png" id="skylineMid">
+        <h2 id="text">JDM Stickers</h2>
+        <a href="#sec" id="btn">Explore</a>
+        <img src="Assets/SkylineFront.png" id="skylineFront">
+    </section>
+    
+    <div class="sec" id="sec">
+        <h2>Title</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Fugit voluptatem minus illo hic quas repellendus 
+            consequatur nihil aperiam sed et magni eos natus aliquam, 
+            dolorum vitae quasi perferendis, pariatur amet. Lorem ipsum 
+            dolor sit amet consectetur adipisicing elit. Omnis quos nulla 
+            tempore, unde adipisci maxime? Reprehenderit odio fuga illum 
+            inventore soluta corporis sit! Quas, ut et repellat officiis 
+            hic nihil. Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Fugit voluptatem minus illo hic quas repellendus 
+            consequatur nihil aperiam sed et magni eos natus aliquam, 
+            dolorum vitae quasi perferendis, pariatur amet. Lorem ipsum 
+            dolor sit amet consectetur adipisicing elit. Omnis quos nulla 
+            tempore, unde adipisci maxime? Reprehenderit odio fuga illum 
+            inventore soluta corporis sit! Quas, ut et repellat officiis 
+            hic nihil.<br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Fugit voluptatem minus illo hic quas repellendus 
+            consequatur nihil aperiam sed et magni eos natus aliquam, 
+            dolorum vitae quasi perferendis, pariatur amet. Lorem ipsum 
+            dolor sit amet consectetur adipisicing elit. Omnis quos nulla 
+            tempore, unde adipisci maxime? Reprehenderit odio fuga illum 
+            inventore soluta corporis sit! Quas, ut et repellat officiis 
+            hic nihil.Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Fugit voluptatem minus illo hic quas repellendus 
+            consequatur nihil aperiam sed et magni eos natus aliquam, 
+            dolorum vitae quasi perferendis, pariatur amet. Lorem ipsum 
+            dolor sit amet consectetur adipisicing elit. Omnis quos nulla 
+            tempore, unde adipisci maxime? Reprehenderit odio fuga illum 
+            inventore soluta corporis sit! Quas, ut et repellat officiis 
+            hic nihil. </p>
+    </div>
+
+    <script>
+        let skylineBack = document.getElementById('skylineBack');
+        let skylineMid = document.getElementById('skylineMid');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let skylineFront = document.getElementById('skylineFront');
+        let header = document.querySelector('header')
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            skylineBack.style.top = value * 0.25 + 'px';
+            skylineMid.style.top = value * 0.1 + 'px';
+            skylineFront.style.top = value * 0 + 'px';
+            text.style.marginTop = value * 0.5 + 'px';
+            btn.style.marginTop = value * 1.5 + 'px';
+           
+        })
+
+    </script>
+</body>
+</html>
