@@ -1,4 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+:root{
+    /*----- COLORES-----*/
+    --blue-color: #6DB1BF;
+    --blue-color-dark: hsl(189, 28%, 39%);
+    --white-faded: #FFEAEC;
+    --white-color: #fff;
+    --dark-color: black;
+
+    /*-----Z-INDEX----*/
+    --z-fixed: 1000;
+
+}
+
+/*======GENERAL ELEMENTS======*/
+
 *
 {
     margin: 0;
@@ -7,12 +22,19 @@
     font-family: 'Staatliches', cursive;
     scroll-behavior: smooth;
 }
+img{
+    max-width: 100%;
+    height: auto;
+}
 body
 {
     background: linear-gradient(#6DB1BF, #FFEAEC );
     overflow-x: hidden;
     min-height: 100vh;
 }
+
+/*====Header Element=====*/
+
 header
 {
     position: absolute;
@@ -130,4 +152,9 @@ section img
 {
     font-size: 1em;
     color: black;
+}
+.featured_container
+{
+    row-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
