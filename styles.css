@@ -182,6 +182,7 @@ header ul
 }
 header ul li
 {
+    font-size: var(--big-font-size);
     list-style: none;
     margin-left: 20px;
 }
