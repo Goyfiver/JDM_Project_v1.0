@@ -16,13 +16,16 @@
     --dark-color: black;
     --pine-green: #0B7A75;
 
-    /*===== Font =====*/
+    /*===== Font and typography =====*/
     --big-font-size: 1.25rem;
     --bigger-font-size: 1.5rem;
     --biggest-font-size: 2rem;
+    --title-font-size: 4rem;
     --h2-font-size: 1.25rem;
     --normal-font-size: .938rem;
     --smaller-font-size: .813rem;
+
+    --body-font: 'Staatliches', cursive;
 
     /*====== Margins ======*/
     --mb-1: .5rem;
@@ -41,6 +44,16 @@
 
 /*======GENERAL ELEMENTS======*/
 
+@media screen and (min-width: 768px) {
+    :root{
+        --big-font-size: 1.5rem;
+        --bigger-font-size: 2rem;
+        --biggest-font-size: 3rem;
+        --normal-font-size: 1rem;
+        --smaller-font-size: .875rem;
+    }
+}
+
 *
 {
     margin: 0;
@@ -48,16 +61,21 @@
     box-sizing: border-box;
     font-family: 'Staatliches', cursive;
 }
+
 html{
     scroll-behavior: smooth;
 }
+
 ::before,::after{
     box-sizing: border-box;
 }
+
 body{
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
+    line-height: 1.6;
 }
+
 .section{
     padding: 5rem 0 2rem; 
 }
@@ -79,19 +97,43 @@ body{
     margin: auto;
     background-color: var(--dark-color);
 }
+
+h1,h2,h3,h4,p,ul{
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
 a{
     text-decoration: none;
     color: var(--dark-color);
 }
+
 img{
     max-width: 100%;
     height: auto;
+    display: block;
 }
 .landing_Page
 {
     background: linear-gradient(var(--blue-color), var(--white-color));
     overflow-x: hidden;
     min-height: 100vh;
+}
+
+/*===== LAYOUT ========*/
+
+.bd-grid{
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 2rem;
+    width: calc(100% - 2rem);
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
 }
 
 /*====Header Element=====*/
@@ -124,6 +166,9 @@ header ul
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.nav__item{
+    font-size: var(--bigger-font-size);
 }
 header ul li
 {
@@ -183,7 +228,7 @@ header ul li a.active
     position: absolute;
     color: #fff;
     white-space: nowrap;
-    font-size: 7.5vw;
+    font-size: var(--title-font-size);
  
     z-index: 9;
 }
@@ -245,6 +290,7 @@ header ul li a.active
     position: absolute;
     left: .5rem;
     background-color: var(--pine-green);
+    color: var(--white-color);
     padding: .25rem .5rem;
     border-radius: .25rem;
     font-size: var(--h2-font-size);
@@ -271,4 +317,31 @@ header ul li a.active
 }
 .sticker:hover{
     transform: translateY(.5rem);
+}
+
+
+
+
+
+/*====== MEDIA QUERIES =======*/
+@media screen and (min-width: 576px) {
+
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        margin: 0;
+    }
+
+    .section{
+        padding: 7rem 0;
+    }
+
+    .section-title::after{
+        width: 76px;
+    }
+
+    .nav{
+        height: calc(var(--header-height) + 1.5rem);
+    }
 }
