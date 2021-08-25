@@ -138,6 +138,20 @@ img{
 
 /*====Header Element=====*/
 
+@media screen and (max-width: 768px){
+    .nav__menu{
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 2rem;
+    transition: .5s;
+    justify-content: space-evenly;
+}
+header .logo{
+    display: none;
+}
+}
+
 header
 {
     position: absolute;
@@ -158,7 +172,6 @@ header .logo
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
-
 }
 
 header ul
@@ -166,9 +179,6 @@ header ul
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.nav__item{
-    font-size: var(--bigger-font-size);
 }
 header ul li
 {
@@ -244,12 +254,7 @@ header ul li a.active
     z-index: 9;
     transform: translateY(100px);
 }
-#featured
-{
-    position: relative;
-    padding: 100px;
-    background: #fff;
-}
+
 
 
 /*======= BUTTON =======*/
@@ -269,7 +274,12 @@ header ul li a.active
 }
 
 /*======FEATURED SECTION======*/
-
+#featured
+{
+    position: relative;
+    padding: 100px;
+    background: #fff;
+}
 .featured_container
 {
     row-gap: 2rem;
