@@ -269,6 +269,19 @@ header ul li a.active
     justify-content: center;
     background: #212121;
 }
+.social__orders-text{
+    color: var(--white-color);
+}
+.social__orders-text h2{
+    font-size: var(--title-font-size);
+}
+.social__orders-text p{
+    font-size: var(--normal-font-size);
+}
+.social__orders-text p2{
+    color: rgba(255,255,255,.54);
+    font-size: var(--normal-font-size);
+}
 .dark {
     margin: 20px;
     display: flex;
@@ -352,6 +365,8 @@ header ul li a.active
 .button-light:hover .button-icon{
     transform: translateX(.25rem);
 }
+
+
 
 /*======FEATURED SECTION======*/
 #featured
