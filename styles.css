@@ -252,7 +252,7 @@ header ul li a.active
     background: #fff;
     color: #6DB1BF;
     font-size: 1.5em;
-    z-index: 9;
+    z-index: var(--z-fixed)	;
     transform: translateY(100px);
 }
 
