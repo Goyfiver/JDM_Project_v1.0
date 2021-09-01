@@ -46,10 +46,11 @@
     border-radius: 20px;
 
 }
-  #navbar ul li a:hover
+  #navbar ul li a:hover,
   #navbar ul li a.active{
-    background: var(--dark-color);
-    color: var(--white-color);
+    background: var(--white-color);
+    color: var(--dark-color);
+    transition: .5s;
   }
   
 
@@ -71,3 +72,22 @@
   .sticky + .content {
     padding-top: 60px;
   }
+
+
+
+
+
+/* ===== MEDIA QUERIES ===== */
+
+  @media screen and (max-width: 768px){
+    #navbar{
+    left: 0;
+    width: 100%;
+    transition: .5s;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+#navbar .logo{
+    display: none;
+}
+}
