@@ -468,7 +468,18 @@ img{
     z-index: var(--z-fixed);
 }
 
-.Fast_Furious_Collection img
+.Fast_Furious_Collection div img{
+    z-index: var(--z-fixed);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 45rem;
+    height: auto;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+#FF_img_back
 { 
     grid-column: 3;
     grid-row: 4;
