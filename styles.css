@@ -473,7 +473,7 @@ img{
     position: absolute;
     top: 55%;
     left: 50%;
-    width: 45rem;
+    width: 45%;
     height: auto;
     object-fit: cover;
     pointer-events: none;
@@ -547,8 +547,12 @@ img{
     display: none;
 }
 }
-@media screen and (min-width: 576px) {
-
+@media screen and (max-width: 576px) {
+    .Fast_Furious_Collection div img{
+        width: 55%;
+        left: 40%;
+        top: 65%;
+    }
 }
 
 @media screen and (min-width: 768px) {
