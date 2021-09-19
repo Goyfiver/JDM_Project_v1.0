@@ -1,0 +1,93 @@
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: var(--dark-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 200px 5px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    z-index: 1000000;
+  }
+  
+
+
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: var(--dark-color);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  #navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #navbar ul li
+{
+    font-size: var(--big-font-size);
+    list-style: none;
+    margin-left: 20px;
+}
+  #navbar ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: var(--white-color);
+    border-radius: 20px;
+
+}
+  #navbar ul li a:hover,
+  #navbar ul li a.active{
+    background: var(--white-color);
+    color: var(--dark-color);
+    transition: .5s;
+  }
+  
+
+
+
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+
+
+
+
+/* ===== MEDIA QUERIES ===== */
+
+  @media screen and (max-width: 768px){
+    #navbar{
+    left: 0;
+    width: 100%;
+    transition: .5s;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+#navbar .logo{
+    display: none;
+}
+}
