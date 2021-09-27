@@ -389,7 +389,7 @@ img{
 #featured
 {
     position: relative;
-    padding: 100px;
+    padding: 5%;
     background: #fff;
 }
 .featured_container
@@ -545,6 +545,9 @@ img{
     padding: 2rem;
     transition: .5s;
     justify-content: space-evenly;
+}
+.social__orders{
+    padding-left: 5%;
 }
 #header__home .logo{
     display: none;
