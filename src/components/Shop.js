@@ -26,7 +26,7 @@ function Shop(){
                             <div className="sticker_sale">Sale</div>
                             <img src="Assets/Featured/sticker_Featured1.png" alt="" className="sticker_img" />
                             <span className="sticker__name"><i> GT-R R34</i> sticker</span>
-                            <span className="sticker__price">$49.99</span> 
+                            <span className="sticker__price">$4.99</span> 
                             Add to Cart<i className='bx bx-shopping-bag'></i>
                     </motion.button>
                      
@@ -39,7 +39,7 @@ function Shop(){
                             <div className="sticker_sale">Sale</div>
                             <img src="Assets/Featured/Evo9.png" alt="" className="sticker_img" />
                             <span className="sticker__name"><i>Evo</i> 9 sticker</span>
-                            <span className="sticker__price">$49.99</span>
+                            <span className="sticker__price">$4.99</span>
                             Add to Cart<i className='bx bx-shopping-bag'></i>
                     </motion.button>
 
@@ -54,7 +54,7 @@ function Shop(){
                             <div className="sticker_sale">Sale</div>
                             <img src="Assets/Featured/rx7.png" alt="" className="sticker_img0" />
                             <span className="sticker__name"><i>RX-7</i> sticker</span>
-                            <span className="sticker__price">$49.99</span>
+                            <span className="sticker__price">$4.99</span>
                             Add to Cart<i className='bx bx-shopping-bag'></i>
                     </motion.button>
                  
@@ -67,7 +67,7 @@ function Shop(){
                             <div className="sticker_sale">Sale</div>
                             <img src="Assets/Featured/supra.png" alt="" className="sticker_img" />
                             <span className="sticker__name"><i>Supra</i> sticker</span>
-                            <span className="sticker__price">$49.99</span>
+                            <span className="sticker__price">$4.99</span>
                             Add to Cart<i className='bx bx-shopping-bag'></i>
                     </motion.button>
                     <motion.button
@@ -78,7 +78,7 @@ function Shop(){
                     >
                             <img src="Assets/FastAndFurious/han_rx7.png" alt="" className="sticker_img" />
                             <span className="sticker__name"><i> Han's RX-7</i> sticker</span>
-                            <span className="sticker__price">$49.99</span>
+                            <span className="sticker__price">$4.99</span>
                             <a href="./addToCart.html" className="button-light">Add to Cart<i className='bx bx-right-arrow-alt button-icon'></i></a>
                     </motion.button>
                     <motion.button
@@ -89,7 +89,7 @@ function Shop(){
                     >
                             <img src="Assets/FastAndFurious/Paul_eclipse.png" alt="" className="sticker_img" />
                             <span className="sticker__name"><i>Paul's Eclipse</i> sticker</span>
-                            <span className="sticker__price">$49.99</span>
+                            <span className="sticker__price">$4.99</span>
                             <a href="./addToCart.html" className="button-light">Add to Cart<i className='bx bx-right-arrow-alt button-icon'></i></a>
                     </motion.button>
                     <motion.button
@@ -100,7 +100,7 @@ function Shop(){
                     >
                             <img src="Assets/FastAndFurious/Paul_r34_GTR.png" alt="" className="sticker_img" />
                             <span className="sticker__name"><i>Paul's GT-R</i> sticker</span>
-                            <span className="sticker__price">$49.99</span>
+                            <span className="sticker__price">$4.99</span>
                             <a href="./addToCart.html" className="button-light">Add to Cart<i className='bx bx-right-arrow-alt button-icon'></i></a>
                     </motion.button>
                     <motion.button
@@ -111,7 +111,7 @@ function Shop(){
                     >
                             <img src="Assets/FastAndFurious/Paul_supra.png" alt="" className="sticker_img" />
                             <span className="sticker__name"><i>Paul's Supra</i> sticker</span>
-                            <span className="sticker__price">$49.99</span>
+                            <span className="sticker__price">$4.99</span>
                             <a href="./addToCart.html" className="button-light">Add to Cart<i className='bx bx-right-arrow-alt button-icon'></i></a>
                     </motion.button>
                     <motion.button
@@ -122,7 +122,7 @@ function Shop(){
                     >
                             <img src="Assets/FastAndFurious/Suki_s2000.png" alt="" className="sticker_img" />
                             <span className="sticker__name"><i>Suki's s200</i> sticker</span>
-                            <span className="sticker__price">$49.99</span>
+                            <span className="sticker__price">$4.99</span>
                             <a href="./addToCart.html" className="button-light">Add to Cart<i className='bx bx-right-arrow-alt button-icon'></i></a>
                     </motion.button>
                     <AnimatePresence
