@@ -17,8 +17,8 @@ function Footer(){
                     </div>
                     <div className="footer__box">
                         <a href="" className="footer__social"><i className='bx bxl-facebook'></i></a>
-                        <a href="https://www.instagram.com/jdm_stickers_mx/" target="blank" className="footer__social"><i className='bx bxl-instagram'></i></a>
-                        <a href="https://www.instagram.com/jdm_stickers_mx/" target="blank" className="footer__social"><i className='bx bxl-google'></i></a>
+                        <a href="https://www.instagram.com/jdm_stickers_jrz/" target="blank" className="footer__social"><i className='bx bxl-instagram'></i></a>
+                        <a href="https://www.instagram.com/jdm_stickers_jrz/" target="blank" className="footer__social"><i className='bx bxl-google'></i></a>
 
                     </div>
 

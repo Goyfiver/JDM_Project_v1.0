@@ -59,7 +59,7 @@ const ModalText = ({ text }) => (
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/jdm_stickers_mx/" target="blank" className="btn-gradient rounded instagram">
+            <a href="https://www.instagram.com/jdm_stickers_jrz/" target="blank" className="btn-gradient rounded instagram">
               <i className="fa fa-instagram"></i>
             </a>
           </li>
